@@ -1,0 +1,131 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: create_iam_user
+  examples: |
+    - Please create an iam user 
+    - create an iam user
+    - iam user create
+    - i need a IAM user
+    - Please create a IAM user
+    - Create IAM user
+    - IAM user kenek wa create karanna
+    - create an iam user [John]{"entity": "name"}
+    - create iam user [John]{"entity": "name"}
+    - please do create an iam user [John]{"entity": "name"}
+    - can you create an iam user [Ashen]{"entity": "name"}
+    - create an iam user [Dinuka]{"entity": "name"}
+    - create an iam user [Dilanka]{"entity": "name"}
+    - create an iam user [saman]{"entity": "name"}
+    - create an iam user [rukshika]{"entity": "name"}
+    - create an iam user [appuhamy]{"entity": "name"}
+    - create an iam user [Rehan]{"entity": "name"}
+    - create iam user [John]{"entity": "name"}
+    - please do create an iam user [Tharanga]{"entity": "name"}
+    - can you create an iam user [charles]{"entity": "name"}
+    - create an iam user [Heshan]{"entity": "name"}
+    - create an iam user [William]{"entity": "name"}
+    - create an iam user [Richard]{"entity": "name"}
+    - create an iam user [Michael]{"entity": "name"}
+    - create an iam user [Chathurika]{"entity": "name"}
+    - can you create an iam user [Ajith]{"entity": "name"}
+    - create an iam user [Janaka]{"entity": "name"}
+    - create an iam user [William]{"entity": "name"}
+    - create an iam user [Kamal]{"entity": "name"}
+    - create an iam user [Mahesh]{"entity": "name"}
+    - create an iam user [Anura]{"entity": "name"}
+    - create an iam user [Sachini]{"entity": "name"}
+    - create an iam user [Sandaru]{"entity": "name"}
+    - create an iam user [Uvindu]{"entity": "name"}
+    - create an iam user [Vindya]{"entity": "name"}
+    - create an iam user [Tharindu]{"entity": "name"}
+
