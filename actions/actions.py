@@ -27,8 +27,8 @@ class ActionCreateUserRole(Action):
                 dispatcher.utter_message(text="Please enter the IAM user name")
             else:
                 # Set your AWS credentials
-                AWS_ACCESS_KEY_ID = 'AKIA6CXDF6RZTV3CBL4L'
-                AWS_SECRET_ACCESS_KEY = 'pVsxfrPtTE/E7tRBlJcgSrqVrpo+78qHXH9AXsD9'
+                AWS_ACCESS_KEY_ID = ''
+                AWS_SECRET_ACCESS_KEY = ''
                 client = boto3.client('iam', aws_access_key_id=AWS_ACCESS_KEY_ID, aws_secret_access_key=AWS_SECRET_ACCESS_KEY)
                 user_name = entities[0]['value']
                
@@ -47,8 +47,8 @@ class ActionCreateUserRole(Action):
             if not entities:
                 dispatcher.utter_message(text="Please enter the IAM user name")
             else:
-                AWS_ACCESS_KEY_ID = 'AKIA6CXDF6RZXXH7KEW6'
-                AWS_SECRET_ACCESS_KEY = '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'
+                AWS_ACCESS_KEY_ID = ''
+                AWS_SECRET_ACCESS_KEY = ''
                 user_name = entities[0]['value']
     
                 try:
